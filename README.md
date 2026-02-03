@@ -1,14 +1,50 @@
 🏏 Dream11 Fantasy Team Predictor
-This app predicts individual player performance for Dream11 fantasy cricket and recommends the best 11-player team based on predicted stats and official scoring rules.
-🚀 How to Use
 
-1. Upload Input File: Provide an Excel file named SquadPlayerNames_IndianT20League.xlsx with a sheet named Match_<number> (e.g., Match_57) and a column IsPlaying marked as "PLAYING". Available in my repository for 2025 season.
-2. Hit Predict: The app scrapes player stats from Cricinfo, forecasts their next performance using linear regression, and calculates fantasy scores.
-3. Get Final Team: The app returns the top 11 players with captain (C) and vice-captain (VC) assigned, and allows you to download the results.
+A data-driven application that predicts individual player performance for Dream11 fantasy cricket and recommends the best 11-player team based on predicted stats and official Dream11 scoring rules.
+
+🚀 How It Works
+1️⃣ Upload Input File
+
+Upload an Excel file named SquadPlayerNames_IndianT20League.xlsx
+
+The file should contain a sheet named Match_<number> (for example, Match_57)
+
+Players selected for the match must be marked as PLAYING in the IsPlaying column
+
+Sample input files for the 2025 season are available in the repository
+
+2️⃣ Predict Player Performance
+
+The app scrapes historical player statistics from Cricinfo
+
+Uses Linear Regression to forecast each player’s next-match performance
+
+Calculates fantasy points based on official Dream11 scoring rules
+
+3️⃣ Generate Final Team
+
+Selects the top 11 players based on predicted fantasy scores
+
+Automatically assigns Captain (C) and Vice-Captain (VC)
+
+Allows users to download the final team as a CSV file
 
 📦 Tech Stack
-Python, Pandas, NumPy, Scikit-learn
-Web scraping with BeautifulSoup
-Streamlit for deployment
+
+Python
+
+Pandas, NumPy
+
+Scikit-learn (Linear Regression)
+
+BeautifulSoup (Web Scraping)
+
+Streamlit (Web App Deployment)
+
 📄 Output
-CricTensors_Output.csv: Final team with roles and scores
+
+CricTensors_Output.csv
+
+Contains the final 11-player fantasy team
+
+Includes player roles, predicted fantasy scores, and C/VC assignments
