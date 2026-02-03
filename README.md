@@ -1,8 +1,8 @@
-🏏 Dream11 Fantasy Team Predictor
+#  🏏 Dream11 Fantasy Team Predictor
 
 A data-driven application that predicts individual player performance for Dream11 fantasy cricket and recommends the best 11-player team based on predicted stats and official Dream11 scoring rules.
 
-🚀 How It Works
+#  🚀 How It Works
 1️⃣ Upload Input File
 
 Upload an Excel file named SquadPlayerNames_IndianT20League.xlsx
