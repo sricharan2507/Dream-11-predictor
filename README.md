@@ -3,31 +3,31 @@
 A data-driven application that predicts individual player performance for Dream11 fantasy cricket and recommends the best 11-player team based on predicted stats and official Dream11 scoring rules.
 
 #  🚀 How It Works
-1️⃣ Upload Input File
+1. Upload Input File
 
-Upload an Excel file named SquadPlayerNames_IndianT20League.xlsx
+   Upload an Excel file named SquadPlayerNames_IndianT20League.xlsx
 
-The file should contain a sheet named Match_<number> (for example, Match_57)
+  The file should contain a sheet named Match_<number> (for example, Match_57)
 
-Players selected for the match must be marked as PLAYING in the IsPlaying column
+  Players selected for the match must be marked as PLAYING in the IsPlaying column
 
-Sample input files for the 2025 season are available in the repository
+  Sample input files for the 2025 season are available in the repository
 
-2️⃣ Predict Player Performance
+2. Predict Player Performance
 
-The app scrapes historical player statistics from Cricinfo
+  The app scrapes historical player statistics from Cricinfo
 
-Uses Linear Regression to forecast each player’s next-match performance
+  Uses Linear Regression to forecast each player’s next-match performance
 
-Calculates fantasy points based on official Dream11 scoring rules
+  Calculates fantasy points based on official Dream11 scoring rules
 
-3️⃣ Generate Final Team
+3️.  Generate Final Team
 
-Selects the top 11 players based on predicted fantasy scores
+  Selects the top 11 players based on predicted fantasy scores
 
-Automatically assigns Captain (C) and Vice-Captain (VC)
+  Automatically assigns Captain (C) and Vice-Captain (VC)
 
-Allows users to download the final team as a CSV file
+  Allows users to download the final team as a CSV file
 
 #  📦 Tech Stack
 
