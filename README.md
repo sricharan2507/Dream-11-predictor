@@ -29,7 +29,7 @@ Automatically assigns Captain (C) and Vice-Captain (VC)
 
 Allows users to download the final team as a CSV file
 
-📦 Tech Stack
+#  📦 Tech Stack
 
 Python
 
@@ -41,7 +41,7 @@ BeautifulSoup (Web Scraping)
 
 Streamlit (Web App Deployment)
 
-📄 Output
+#  📄 Output
 
 CricTensors_Output.csv
 
